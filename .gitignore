@@ -1,0 +1,34 @@
+# ===========================
+# Configuración para proyectos en Jupyter/Python
+# ===========================
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de entorno virtual
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+
+# Datos (archivos grandes o sensibles)
+*.csv
+*.tsv
+*.xlsx
+*.sav
+*.pkl
+*.h5
+
+# Archivos personales de configuración
+*.env
+*.log
+
+# Carpeta de salidas temporales o auxiliares
+outputs/
+assets/
